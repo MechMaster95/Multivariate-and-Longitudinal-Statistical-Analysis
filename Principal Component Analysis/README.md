@@ -1,6 +1,6 @@
 ## Objectives
 
-1.Consider the [lumber stiffness data] used in class to assess multivariate normality. Load the data in R and remove the two rows that might be outliers.
+1. Consider the [lumber stiffness data] used in class to assess multivariate normality. Load the data in R and remove the two rows that might be outliers.
 Perform univariate Shapiro-Wilk tests and multivariate Royston tests on the new dataset.
 Create a new chi-square plot.
 Discuss the results you fond in part (a) and (b).
