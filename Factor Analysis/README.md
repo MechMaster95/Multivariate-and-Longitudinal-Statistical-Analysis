@@ -1,4 +1,4 @@
-Problems
+# Objectives
 
 1.  Consider the [hemangioma data] discussed in class.
 Examine the marginal distributions of genetic markers in the hemangioma data. Which of these appear to be normally distributed? Identify both large and small outliers.
@@ -22,15 +22,13 @@ Find the two-factor solution from a maximum likelihood factor analysis with vari
 
 Do you think a two factor model is sufficient? Explain your answwer.
 
-
-
 3. The [matrix below] shows the correlations between ratings on nine statements about pain made by 123 people suffering from extreme pain. Each statement was scored on a scale from 1 to 6, ranging from agreement to disagreement. The nine pain statements were as follows:
 Whether or not I am in pain in the future depends on the skills of the doctors.
 Whenever I am in pain, it is usually because of something I have done or not done.
 Whether or not I am in pain depends on what the doctors do for me.
 I cannot get any help for my pain unless I go to seek medical advice.
 When I am in pain, I know that it is because I have not been taking proper exercise or eating the right food.
-People’s pain results from their own carelessness.
+Peopleâ€™s pain results from their own carelessness.
 I am directly responsible for my pain,
 relief from pain is chiefly controlled by the doctors.
 People who are never in pain are just plain lucky.
@@ -39,8 +37,25 @@ R <- (lt + t(lt)) - diag(1, 9)
 R2 <- R[-9, -9]
 R2
 
-Fit a correlated two-factor model in which questions 1, 3, 4, and 8 are assumed to be indicators of the latent variable Doctor’s Responsibility and questions 2, 5, 6, and 7 are assumed to be indicators of the latent variable Patient’s Responsibility.
+Fit a correlated two-factor model in which questions 1, 3, 4, and 8 are assumed to be indicators of the latent variable Doctorâ€™s Responsibility and questions 2, 5, 6, and 7 are assumed to be indicators of the latent variable Patientâ€™s Responsibility.
 
 Find a 95% confidence interval for the correlation between the two latent variables.
 
 Note that, we get an estimate and standard error for each parameter. A 95% confidence interval can be computed as
+
+
+## the following are the critical plots for the above objectives
+
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Factor%20Analysis/diagram.png)
+
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Factor%20Analysis/q1.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Factor%20Analysis/q2.png)
+
+
+
+
+
+
+
+
+
