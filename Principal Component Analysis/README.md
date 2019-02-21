@@ -24,7 +24,7 @@ Generate 100 data points from a bivariate normal distribution such that E(X1)=1,
 Make a scatter plot of the generated data, and overlay data ellipses (50% and 95%). What pattern would you expect to see in the scatterplot?
 
 Now consider a new variable Y=X1+X2. Explicitly write down the distribution of Y; .
-## Importart Plots obtained for this study
+## Important Plots obtained for this study
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q1.jpg)
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q2.png)
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q3.jpg)
