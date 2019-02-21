@@ -25,7 +25,9 @@ Now consider a new variable Y=X1+X2. Explicitly write down the distribution of Y
 
 From the sample you generated in (a), compute observations of Y, draw a histogram of these values, and overlay the PDF of the distribution you obtained in part (c) on the histogram. What pattern do you expact to see? Does you expectation match with what you see in the plot? Explain. [Hint: the function dnorm() can be used to compute the PDF of a normal distribution.]
 
-# The following are the major plots obtained in the above objectives
+## The following are the major plots obtained in the above objectives
+* these plots are pivotal in identifying the outliers in the data
+
 
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q1_1.png)
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q1.png)
