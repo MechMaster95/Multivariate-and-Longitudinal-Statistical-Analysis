@@ -35,9 +35,9 @@ Provide an estimate for the parameter vector (μmb−μnh,μbh−μnh)T and comp
 
 Plots obtained for the objectives above
 
-![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistics/blob/Mulitvariate-Summary-Statistics/q1.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Summary%20Statistics/q1.png)
 
-![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistics/blob/Mulitvariate-Summary-Statistics/q2.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Summary%20Statistics/q2.png)
 
 
 
