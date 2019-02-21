@@ -1,4 +1,4 @@
-#Objectives
+## Objectives
 
 1.Consider the [lumber stiffness data] used in class to assess multivariate normality. Load the data in R and remove the two rows that might be outliers.
 Perform univariate Shapiro-Wilk tests and multivariate Royston tests on the new dataset.
@@ -53,9 +53,9 @@ Now consider a new variable Y=X1+X2. Explicitly write down the distribution of Y
 From the sample you generated in (a), compute observations of Y, draw a histogram of these values, and overlay the PDF of the distribution you obtained in part (c) on the histogram. What pattern do you expact to see? Does you expectation match with what you see in the plot? Explain. 
 
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q1.jpg)
-![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q2.jpg)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q2.png)
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q3.jpg)
-![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q5.jpg)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Principal%20Component%20Analysis/q5.png)
 
 
 
