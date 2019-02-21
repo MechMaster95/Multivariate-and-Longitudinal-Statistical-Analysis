@@ -1,4 +1,4 @@
-﻿1.Consider the [lumber stiffness data] used in class to assess multivariate normality. Load the data in R and remove the two rows that might be outliers.
+﻿1. Consider the [lumber stiffness data] used in class to assess multivariate normality. Load the data in R and remove the two rows that might be outliers.
 Perform univariate Shapiro-Wilk tests and multivariate Royston tests on the new dataset.
 Create a new chi-square plot.
 Discuss the results you fond in part (a) and (b).
@@ -24,3 +24,11 @@ Make a scatter plot of the generated data, and overlay data ellipses (50% and 95
 Now consider a new variable Y=X1+X2. Explicitly write down the distribution of Y; clearly specify the distribution and its parameters to get full credit.
 
 From the sample you generated in (a), compute observations of Y, draw a histogram of these values, and overlay the PDF of the distribution you obtained in part (c) on the histogram. What pattern do you expact to see? Does you expectation match with what you see in the plot? Explain. [Hint: the function dnorm() can be used to compute the PDF of a normal distribution.]
+
+# The following are the major plots obtained in the above objectives
+
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q1_1.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q1.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q2.png)
+![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Multivariate%20Assessment%20of%20Normality%20and%20Outlier%20Detection/q3.png)
+
