@@ -1,0 +1,36 @@
+digraph "doc_patient_sem" {
+  rankdir=LR;
+  size="8,8";
+  node [fontname="Helvetica" fontsize=14 fillcolor="steelblue" shape=box style=filled];
+  edge [fontname="Helvetica" fontsize=10];
+  center=1;
+  "doctor" [shape=ellipse]
+  "patient" [shape=ellipse]
+  "X1" [fillcolor="transparent"]
+  "X3" [fillcolor="transparent"]
+  "X4" [fillcolor="transparent"]
+  "X8" [fillcolor="transparent"]
+  "X2" [fillcolor="transparent"]
+  "X5" [fillcolor="transparent"]
+  "X6" [fillcolor="transparent"]
+  "X7" [fillcolor="transparent"]
+  "doctor" -> "X1" [label="lambda11=0.67" color=black penwidth=1.001];
+  "doctor" -> "X3" [label="lambda31=0.81" color=black penwidth=1.001];
+  "doctor" -> "X4" [label="lambda41=0.75" color=black penwidth=1.001];
+  "doctor" -> "X8" [label="lambda81=0.76" color=black penwidth=1.001];
+  "patient" -> "X2" [label="lambda21=0.53" color=black penwidth=1.001];
+  "patient" -> "X5" [label="lambda51=0.59" color=black penwidth=1.001];
+  "patient" -> "X6" [label="lambda61=0.83" color=black penwidth=1.001];
+  "patient" -> "X7" [label="lambda71=0.73" color=black penwidth=1.001];
+  "X1" -> "X1" [label="psi1=0.56" dir=both color=black penwidth=1.001];
+  "X2" -> "X2" [label="psi2=0.72" dir=both color=black penwidth=1.001];
+  "X3" -> "X3" [label="psi3=0.35" dir=both color=black penwidth=1.001];
+  "X4" -> "X4" [label="psi4=0.43" dir=both color=black penwidth=1.001];
+  "X5" -> "X5" [label="psi5=0.65" dir=both color=black penwidth=1.001];
+  "X6" -> "X6" [label="psi6=0.31" dir=both color=black penwidth=1.001];
+  "X7" -> "X7" [label="psi7=0.46" dir=both color=black penwidth=1.001];
+  "X8" -> "X8" [label="psi8=0.43" dir=both color=black penwidth=1.001];
+  "doctor" -> "doctor" [label="1=1" dir=both color=black penwidth=1.001];
+  "patient" -> "patient" [label="1=1" dir=both color=black penwidth=1.001];
+  "doctor" -> "patient" [label="rho=-0.3" dir=both color=black penwidth=1.001];
+}
