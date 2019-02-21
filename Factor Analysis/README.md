@@ -30,7 +30,7 @@ Find a 95% confidence interval for the correlation between the two latent variab
 Note that, we get an estimate and standard error for each parameter. A 95% confidence interval can be computed as
 
 
-## the following are the important plots for the above objectives
+## The following are the important plots for the above objectives
 
 ![alt text](https://github.com/MechMaster95/Multivariate-and-Longitudinal-Statistical-Analysis/blob/master/Factor%20Analysis/diagram.png)
 
